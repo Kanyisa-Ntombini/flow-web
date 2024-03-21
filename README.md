@@ -2,31 +2,11 @@
 
 Live site: https://flow-web-888.netlify.app/
 
-## How to get the access token
+## Credits
 
-- Paste the following in the browser
-  https://api.instagram.com/oauth/authorize
-  ?client_id={app-id}
-  &redirect_uri={redirect-uri}
-  &scope=user_profile,user_media
-  &response_type=code
+Thank you to the following creators for images used in this project
 
-- You will get a url that ends with code=aaaaaaaaaaaa#-
-- Only use code=aaaaaaaaaaaa
+### 1. Wind icon
 
-- Use the above code in to run the following in the terminal:
-  curl -X POST \
-   https://api.instagram.com/oauth/access_token \
-   -F client_id={app-id} \
-   -F client_secret={app-secret} \
-   -F grant_type=authorization_code \
-   -F redirect_uri={redirect-uri} \
-   -F code={code}
-
-- You will get the following that you will save in your .env file
-  {
-  "access_token": "IGQVJ...",
-  "user_id": 17841405793187218
-  }
-
-## Testing
+- [Wind icon](/public/wind.png)
+- [Wind icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/wind)

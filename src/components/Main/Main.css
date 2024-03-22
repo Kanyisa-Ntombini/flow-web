@@ -1,0 +1,20 @@
+.Block {
+  border: 0.15rem solid black;
+  width: 15rem;
+  margin: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  width: 10rem;
+  margin: 1rem auto;
+}
+
+.AllImages {
+  display: flex;
+}

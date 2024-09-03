@@ -1,8 +1,8 @@
-# Instagram App
+# Instagram Web App
 
 ## About
 
-A website that allows a user to download instagram pictures fro their account
+A website that allows a user to download instagram pictures from their account.
 
 ## How to use
 

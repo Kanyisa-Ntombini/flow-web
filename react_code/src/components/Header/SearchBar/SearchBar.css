@@ -1,0 +1,11 @@
+label {
+  margin: 1rem 0;
+}
+
+input {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 0.2rem solid rgb(249, 4, 45);
+  border-radius: 0.25rem;
+}

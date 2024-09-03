@@ -1,0 +1,10 @@
+h1 {
+  color: rgb(249, 4, 45);
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+hr {
+  border: 0.15rem solid rgb(249, 4, 45);
+  width: 75%;
+}
